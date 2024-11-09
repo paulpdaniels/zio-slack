@@ -2,7 +2,7 @@ ThisBuild / name := "zio-slack"
 ThisBuild / organization := "com.github.dapperware"
 
 val mainScala = "2.12.17"
-val allScala  = Seq("2.13.14", mainScala, "3.3.4")
+val allScala  = Seq("2.13.15", mainScala, "3.3.4")
 
 inThisBuild(
   List(
