@@ -37,7 +37,7 @@ resolvers +=
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
 val circeV = "0.14.3"
-val zioV   = "2.0.13"
+val zioV   = "2.0.22"
 val sttpV  = "3.8.15"
 
 ThisBuild / publishTo := sonatypePublishToBundle.value
