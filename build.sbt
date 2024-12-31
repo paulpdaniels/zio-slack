@@ -94,8 +94,8 @@ lazy val examples = projectMatrix
   .settings(
     publish / skip := true,
     libraryDependencies ++= Seq(
-      "dev.zio"                       %% "zio-config"                    % "3.0.7",
-      "dev.zio"                       %% "zio-config-typesafe"           % "3.0.7",
+      "dev.zio"                       %% "zio-config"                    % "4.0.3",
+      "dev.zio"                       %% "zio-config-typesafe"           % "4.0.3",
       "com.softwaremill.sttp.client3" %% "async-http-client-backend-zio" % sttpV
     )
   )
